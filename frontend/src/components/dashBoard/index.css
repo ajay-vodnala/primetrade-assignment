@@ -1,0 +1,98 @@
+
+.filterSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+    border: 1px solid rgb(34, 227, 217);
+}
+.filterSection label{
+    color: rgb(34, 227, 217);
+}
+.inputField{
+    border: 1px solid rgb(34, 227, 217);
+    border-radius: 5px;
+    box-shadow: rgba(167, 232, 229, 0.801) 0px 1px 2px 0px, rgba(133, 233, 228, 0.719) 0px 1px 6px 1px;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.inputField:active{
+    background-color: transparent;
+    border: 1px solid rgb(34, 227, 217);
+}
+.tabButtons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tabButtons button{
+    background-color: transparent;
+    border: none;
+    color: rgb(34, 227, 217);
+    font-weight: 700;
+    text-shadow: 0.5px 0.5px 3px rgb(34, 227, 217);
+}
+.tabButtons button:hover{
+    color: rgb(93, 118, 227);
+    box-sizing: border-box;
+    text-shadow: none;
+}
+.taskSection{
+    background-color:transparent;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    border: 1px solid rgb(34, 227, 217);
+    box-shadow: rgba(167, 232, 229, 0.801) 0px 1px 2px 0px, rgba(133, 233, 228, 0.719) 0px 1px 6px 1px;
+    border-radius: 5px;
+}
+.taskList{
+    display: flex;
+    justify-content: center;
+}
+.taskHeading{
+    color: rgb(34, 227, 217);
+    text-shadow: 0.5px 0.5px 3px rgb(34, 227, 217);
+    font-weight: 700;
+}
+.tasktext{
+    color: whitesmoke;
+    font-weight: 300;
+    text-shadow: none;
+    margin-left: 0.3rem;
+}
+.taskBtns button{
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid rgb(34, 227, 217);
+}
+.taskBtns{
+    display: flex;
+    justify-content: space-around;
+}
+.statusBtn{
+    text-shadow: 1px 1px 3px rgb(103, 103, 233);
+    box-shadow: rgba(133, 148, 224, 0.801) 0px 1px 2px 0px, rgba(41, 44, 232, 0.719) 0px 1px 6px 1px;
+}
+.editBtn{
+    text-shadow: 1px 1px 3px yellow;
+    box-shadow: rgba(216, 239, 116, 0.801) 0px 1px 2px 0px, rgba(220, 231, 26, 0.719) 0px 1px 6px 1px;
+}
+.deleteBtn{
+    text-shadow: 1px 1px 3px rgb(254, 1, 1);
+    box-shadow: rgba(241, 128, 128, 0.801) 0px 1px 2px 0px, rgba(245, 31, 31, 0.719) 0px 1px 6px 1px;
+}
+.statusBtn:hover{
+   background: blue;
+}
+.editBtn:hover{
+   background: yellow;
+   color: black;
+}
+.deleteBtn:hover{
+   background: red;
+}
+

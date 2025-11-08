@@ -1,0 +1,27 @@
+.nav-link{
+    color: rgb(34, 227, 217);
+    font-weight: 600;
+}
+.nav-link:hover{
+    color: rgb(93, 118, 227);
+}
+.logoHeading{
+    
+}
+.nav-bg{
+    background-color: transparent !important;
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgb(34, 227, 217);
+}
+.navbar-nav .nav-link.active{
+    color: rgb(93, 118, 227);
+}
+.logo{
+    width: 2rem;
+    margin-left: 1rem;
+}
+.logo-text{
+    color: rgb(34, 227, 217);
+    font-weight: 600;
+    text-shadow: 1px 1px 3px rgb(69, 117, 231);
+}

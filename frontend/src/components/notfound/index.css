@@ -1,0 +1,9 @@
+.notFoundImage{
+    width: 20rem;
+}
+.notFoundImageDiv{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

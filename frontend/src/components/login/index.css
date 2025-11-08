@@ -1,0 +1,34 @@
+form{
+    border: 1px solid rgb(34, 227, 217);
+    padding: 3rem;
+    box-shadow: rgba(167, 232, 229, 0.801) 0px 1px 2px 0px, rgba(133, 233, 228, 0.719) 0px 1px 6px 1px;
+    border-radius: 5px;
+    color: rgb(34, 227, 217);
+    text-shadow: 0.5px 0.5px 3px aqua;
+}
+.mainHeading{
+    color: rgb(34, 227, 217);
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 1px 1px 5px rgb(69, 117, 231);
+}
+.login_input{
+    border: 1px solid rgb(34, 227, 217);
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.login_input:active{
+    background-color: transparent;
+    border: 1px solid rgb(34, 227, 217);
+}
+.loginBtn{
+    background-color: rgb(34, 227, 217);
+    border: 1px solid rgb(69, 117, 231);
+    font-weight: 700;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.3rem 1rem;
+}
